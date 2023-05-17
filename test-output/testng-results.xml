@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sales Force" duration-ms="9813" started-at="2023-05-04T23:55:03 MDT" finished-at="2023-05-04T23:55:13 MDT">
+    <groups>
+    </groups>
+    <test name="LoginChrome" duration-ms="6108" started-at="2023-05-04T23:55:03 MDT" finished-at="2023-05-04T23:55:09 MDT">
+      <class name="com.training.testng.BasicLogin">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.testng.BasicLogin@27808f31]" name="beforeMethod" is-config="true" duration-ms="3173" started-at="2023-05-04T23:55:03 MDT" finished-at="2023-05-04T23:55:06 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.training.testng.BasicLogin@27808f31]" name="Login" duration-ms="2737" started-at="2023-05-04T23:55:06 MDT" finished-at="2023-05-04T23:55:09 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.training.testng.BasicLogin@27808f31]" name="teardown" is-config="true" duration-ms="150" started-at="2023-05-04T23:55:09 MDT" finished-at="2023-05-04T23:55:09 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testng.BasicLogin -->
+    </test> <!-- LoginChrome -->
+    <test name="LoginFirefox" duration-ms="9813" started-at="2023-05-04T23:55:03 MDT" finished-at="2023-05-04T23:55:13 MDT">
+      <class name="com.training.testng.BasicLoginFirefox">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.testng.BasicLoginFirefox@543c6f6d]" name="beforeMethod" is-config="true" duration-ms="6208" started-at="2023-05-04T23:55:03 MDT" finished-at="2023-05-04T23:55:09 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.training.testng.BasicLoginFirefox@543c6f6d]" name="Login" duration-ms="2564" started-at="2023-05-04T23:55:09 MDT" finished-at="2023-05-04T23:55:12 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.training.testng.BasicLoginFirefox@543c6f6d]" name="teardown" is-config="true" duration-ms="1002" started-at="2023-05-04T23:55:12 MDT" finished-at="2023-05-04T23:55:13 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testng.BasicLoginFirefox -->
+    </test> <!-- LoginFirefox -->
+  </suite> <!-- Sales Force -->
+</testng-results>
